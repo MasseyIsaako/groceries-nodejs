@@ -1,3 +1,37 @@
+body, html{
+	margin:0px;
+	padding:0px;
+	background-color:#333;
+}
+
 h1{
-	color:red;
+	color:#EBEBEB;
+	text-align:center;
+}
+
+#form{
+	width:80%;
+	margin:10px 10%;
+}
+
+#submit-input{
+	margin-top:20px;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 80%;
+    margin:20px 10%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    color:#EBEBEB;
+}
+
+tr:nth-child(even) {
+    background-color: #222222;
 }
